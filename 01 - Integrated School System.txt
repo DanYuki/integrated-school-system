@@ -1,0 +1,63 @@
+#RealProject01 - 15 June 2020
+
+Title : Integrated School System
+Author : Dan Yuki
+Version : 1.0
+Last Updated : 18 June 2020
+
+Description : Mengintegrasi sistem yang ada pada sekolah menjadi terpusat dan dinamis dengan penggunaan database sebagai pusat data.
+
+Goals umum : 
+- Mempermudah akses dan pengolahan data.
+- Menghindari adanya data ganda dengan data yang terpusat pada database.
+- Meningkatkan produktivitas guru, terutama dalam mengajar.
+
+User Research : 
+I).User Persona :
+1. Neni Wahyuni, Teacher (48 Years Old)
+
+Problems :
+- Input data siswa tidak efisien karena data harus diinput ulang secara manual dari data pendaftaran.
+- Sulit untuk tracking nilai/kualitas siswa, sehingga sulit untuk mencari siswa yang potensional untuk dikembangkan prestasinya.
+- Rekap nilai, pembuatan rapot, dan dokumen akademik lainnya memakan waktu yang cukup banyak karena data harus diinput manual per dokumen.
+- Tidak terlalu familiar dengan teknologi.
+
+Solution :
+- Dapat diatasi dengan dibuatnya database yang terpusat, sehingga data data dapat diakses dari bagian mana pun. Misal bagian pendaftaran mendaftarkan siswa dan datanya diinput ke database, nantinya guru dapat mengakses data tersebut untuk keperluan pengajaran. Begitu pula bagian lain seperti administrasi, ataupun TU.
+- Guru dapat dibuatkan sebuah aplikasi yang dapat menyimpan nilai murid sampai performance murid di tiap pertemuan, dan data akan ditampilkan dengan bentuk yang lebih mudah dibaca sehingga mudah untuk mendeteksi mana siswa yang potensial untuk dikembangkan lebih jauh bakatnya.
+- Dapat diselesaikan dengan dibuatnya aplikasi yang dapat mengolah nilai dan data siswa yang sudah diinput kedalam database menjadi sebuah dokumen dengan format yang dapat diubah ubah sesuai dengan kebutuhan. Sehingga para guru tinggal cek data dan nilai saja, tidak harus membuat manual per murid.
+- Dapat diselesaikan dengan dibuatnya manual, edukasi para user(guru) untuk cara menggunakan aplikasinya, menunjuk seorang admin dalam sekolah tsb, dan tentunya dengan membuat tampilan dari sistem ini sesimpel mungkin.
+
+2.Dewi, Tata Usaha (25 Years Old)
+
+Problems :
+- Data masih diinput dalam bentuk fisik di buku, sehingga data rentan rusak dan hilang.
+- Sulit mencari transaksi lama lewat buku.
+
+Solution : 
+-  Data diinput dan disimpan dalam database, dan dapat dengan mudah di backup secara otomatis maupun manual.
+- Bisa menggunakan fitur search yang ada pada aplikasi, untuk mencari data transaksi yang ada pada database.
+
+3. Dwi Nurhayati, Kepala Sekolah (50 Years Old)
+
+Problems :
+- Perlu waktu yang cukup lama untuk memahami masalah secara umum karena banyak data yang masih dalam bentuk raw, sehingga masalah yang dapat diselesaikan tidak banyak.
+- Sulit untuk tracking kualitas guru.
+- Sulit untuk melihat kembali detail dari sebuah event/kejadian karena data sering kali kurang lengkap dan tercecer, sehingga sulit untuk melakukan evaluasi terhadap kejadian kejadian yang sudah terjadi. 
+
+Solution :
+- Data dipisah menjadi 2 tipe, kuantitatif dan kualitatif. Tiap tiap data diberikan kategori agar lebih mudah untuk dikelola. Untuk data kuantitatif dapat diproses dengan data processing menjadi sebuah grafik, sedangkan untuk data kualitatif cukup dengan dikategorikan. Semua data tersebut disimpan dalam database sebagai record.
+- Dapat dibuat environment untuk menampung report yang berhubungan dengan kompetensi guru, dapat juga menampung keluhan/request dari seorang guru. Jadi kepala sekolah dapat melihatnya dengan mudah.
+- Semua data dari event event yang berlalu disimpan dalam server dan untuk detailnya disimpan ke dalam database, sehingga mudah untuk di query dan di sortir.
+
+4. Roy Mustang, Administrator/Proktor ( 25 Years old)
+
+Problems : 
+- Sulit untuk menyelesaikan masalah yang dihadapi oleh user-user karena user tidak dapat menyampaikan dengan baik inti permasalahannya.
+- Tidak begitu paham cara maintain (memelihara) data dan server, dan juga backup server. 
+- Butuh tempat untuk menyimpan data data dari permasalahan yang sudah teratasi sebelumnya, sehingga bisa dilihat lagi ketika ada masalah yang sama.
+
+Solution :
+- Error disertai dengan deskripsi dan kode yang jelas dan mudah dipahami, sehingga akan lebih mudah untuk diselesaikan. Dokumentasi dari error dan seluruh sistem tersebut pun akan diberikan ketika sistemnya sudah di publish, sehingga admin bisa melihat dokumentasi untuk menyelesaikan problem yang telah disediakan.
+-  Admin di edukasi untuk maintain server serta data data yang ada secara berkala, sehingga sistem dapat berjalan dengan baik dan error yang fatal pun dapat terhindari. Untuk backup dapat dilakukan dengan otomatis dan terjadwal, bisa diupload ke cloud service maupun penyimpanan eksternal.
+- Data-data dari permasalahan yang telah terjadi sebelumnya disimpan dalam sebuah environment khusus admin, data tersebut dikategorikan sesuai dengan kode errornya sehingga data tidak berantakan. Data dapat digunakan sebagai referensi ketika ada masalah yang sama terjadi lagi.
