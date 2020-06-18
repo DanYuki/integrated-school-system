@@ -12,6 +12,8 @@ Goals umum :
 - Menghindari adanya data ganda dengan data yang terpusat pada database.
 - Meningkatkan produktivitas guru, terutama dalam mengajar.
 
+DISCLAIMER : Nama-nama yang digunakan pada bagian user persona merupakan nama fiktif/karangan.
+
 User Research : 
 I).User Persona :
 1. Neni Wahyuni, Teacher (48 Years Old)
